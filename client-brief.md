@@ -1,20 +1,21 @@
-# Slack Message from Sarah Chen (VP Product, Cadence)
+# Slack Message from Marcus Lin (Head of Revenue Ops, Vantara)
 
-#product-requests · 2 days ago
+#crm-ops · 3 days ago
 
 Hey team,
 
-Our **retention numbers aren't great**. Students sign up, do a few lessons, then drop off. There's **no sense of progress** beyond a "lesson complete" checkbox — one student told me "I finished 40 lessons and I have nothing to show for it."
+Quick flag on something that's been bothering me for a while.
 
-I'd love us to add some **gamification** to the platform:
+Our **CRM data is there but nobody's acting on it.** Reps log calls and update deal stages — mostly — but nothing happens after that. Deals go cold and nobody catches it until the quarterly review. By then it's too late.
 
-- A **points system** so progress accumulates visibly over time
-- **Levels or ranks** — milestones to aim for
-- **Streaks** (like Duolingo). Students who do one lesson a day for a week are **3x more likely to finish a course**
-- Tie **quizzes** into it somehow — right now there's no incentive to do them
+A few specific problems I keep seeing:
 
-**No leaderboards or anything competitive** — our students are professionals. Keep it **private to each student**.
+- **No follow-up visibility.** A contact goes silent for 3 weeks and the rep doesn't notice until they're doing pipeline cleanup. We're losing deals to inaction, not competition.
+- **Reps don't know what to prioritize.** They open the CRM, see 80 open deals, and just work whatever feels urgent. There's no signal telling them where to focus.
+- **Managers can't coach off the data.** The activity logs are there but nobody has time to read 15 records per rep per week. Coaching is still gut-feel.
 
-Can someone scope this out? I'd like to move on it this quarter.
+I'm not asking for a full AI overhaul. I want something that surfaces the right information at the right time — ideally inside the tools reps already use, not a new dashboard they'll ignore.
 
-Sarah
+Can someone scope what it would take to build lightweight alerting or prioritization logic on top of what we already have in HubSpot? Want to move on this next sprint.
+
+Marcus
